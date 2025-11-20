@@ -1,0 +1,40 @@
+import { Calendar, MapPin, Utensils } from "lucide-react";
+import { Button } from "./ui/button";
+
+export function Header() {
+  return (
+    <header className="border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-rose-300 to-pink-200 flex items-center justify-center shadow-sm">
+              <Utensils className="size-5 text-rose-700" />
+            </div>
+            <span className="text-2xl font-light tracking-wide text-slate-800">
+              Picnic <span className="font-serif italic">Paradise</span>
+            </span>
+          </div>
+          
+          <nav className="hidden md:flex items-center gap-10">
+            <a href="#weather" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
+              Weather
+            </a>
+            <a href="#booking" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
+              Book
+            </a>
+            <a href="#recipes" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
+              Recipes
+            </a>
+            <a href="#activities" className="text-slate-600 hover:text-rose-500 transition-colors text-sm tracking-wide">
+              Activities
+            </a>
+          </nav>
+
+          <Button className="bg-rose-500 hover:bg-rose-600 rounded-full shadow-sm">
+            Get Started
+          </Button>
+        </div>
+      </div>
+    </header>
+  );
+}
