@@ -30,7 +30,7 @@ export function HeroSection() {
           </div>
           
           <h1 className="text-6xl sm:text-8xl font-light tracking-tight text-white drop-shadow-lg">
-            Mood Picnic
+            Minnie Picnic
           </h1>
           
           <p className="text-lg sm:text-xl text-white/95 max-w-2xl mx-auto leading-relaxed drop-shadow">

@@ -11,7 +11,7 @@ export function Header() {
               <Utensils className="size-5 text-rose-700" />
             </div>
             <span className="text-2xl font-light tracking-wide text-slate-800">
-              Mood Picnic
+              Minnie Picnic
             </span>
           </div>
           
