@@ -29,4 +29,4 @@
 
   Run `npm run deploy` this will build the assets and then deploy it to github pages. Make sure the changes for the build are also committed or it may not show up properly.
 
-  You can view the build status here: https://github.com/ubkenneths/moodpicnic/actions/runs/19622931105
+  You can view the build status here: https://github.com/ubkenneths/moodpicnic/actions
