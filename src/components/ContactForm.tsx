@@ -25,6 +25,16 @@ export function ContactForm() {
   return (
     <section className="py-16">
       <div className="text-center mb-16">
+        <a className="book-now-link bg-rose-500 hover:bg-rose-600 rounded-full shadow-sm" href="https://forms.gle/WFXpeAnaAZ8X1cYQ7" 
+        target="_blank">
+          Book <span className="font-serif italic" >Now</span>
+        </a>
+      </div>
+    </section>)}
+
+
+    {/*<section className="py-16">
+      <div className="text-center mb-16">
         <h2 className="text-4xl font-light tracking-wide text-slate-800 mb-4">
           Book <span className="font-serif italic">Now</span>
         </h2>
@@ -153,6 +163,4 @@ export function ContactForm() {
           </p>
         </form>
       </div>
-    </section>
-  );
-}
+    </section> */}

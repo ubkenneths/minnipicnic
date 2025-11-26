@@ -18,7 +18,7 @@ export default function App() {
         {/* <WeatherCard /> */}
         <RecipeGallery />
         <ContactForm />
-        <BookingCalendar />
+        {/*<BookingCalendar />*/}
         {/* <ActivityCards />
         <PackingList />
         <TipsSection /> */}
