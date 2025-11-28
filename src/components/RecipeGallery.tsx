@@ -72,9 +72,9 @@ export function RecipeGallery() {
           <h2 class="text-4xl font-light tracking-wide text-slate-800 mb-4">
             What's included in your <span class="font-serif italic">Base Luxury Picnic?</span>
           </h2>
-          {/* <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            What's included in your base Luxury Picnic? 
-          </p> */}
+          <p className="text-slate-500 text-lg max-w-2xl mx-auto italic">
+            Additional Add-Ons can be found when booking
+          </p>
 
           
             {/* <div className="package-drink-options">
