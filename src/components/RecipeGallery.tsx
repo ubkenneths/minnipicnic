@@ -155,7 +155,7 @@ export function RecipeGallery() {
             Available <span className="font-serif italic">Themes</span>
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Starting at $300 for 2 hours for up to 3 people
+            Starting at $300 for 2 hours for up to 2 people
           </p>
         </div>
       
