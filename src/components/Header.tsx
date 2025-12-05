@@ -1,6 +1,6 @@
 import { Calendar, MapPin, Utensils } from "lucide-react";
 import { Button } from "./ui/button";
-import miniPicnicLogo from '/src/assets/mini-picnic-logo.png';
+import miniPicnicLogo from 'src/assets/mini-picnic-logo.png';
 
 export function Header() {
   return (
