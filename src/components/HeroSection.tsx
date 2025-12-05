@@ -6,9 +6,9 @@ import video from '/src/assets/video.mp4';
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden h-[85vh] min-h-[600px]">
+    <section className="relative flex items-center overflow-hidden hero-section">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0">
+      <div className="absolute w-full">
         {/* <img 
           src={heroImage} 
           alt="Beautiful picnic setup by the ocean"
