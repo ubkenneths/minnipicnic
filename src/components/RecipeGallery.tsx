@@ -65,7 +65,7 @@ export function RecipeGallery() {
   return (
     <section id="recipes" className="">
       <div className="pb-16 py-md-16 pt-sm-only-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 mb-md-16">
           {/* <h2 className="packages-title font-light tracking-wide text-slate-800 mb-4">
             <span className="font-serif italic">What's included in your base Luxury Picnic?</span>
           </h2> */}
@@ -150,7 +150,7 @@ export function RecipeGallery() {
 
       </h2> */}
       <div className="pb-16 py-md-16">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 mb-md-16">
           <h2 className="text-4xl font-light tracking-wide text-slate-800 mb-4">
             Available <span className="font-serif italic">Themes</span>
           </h2>
