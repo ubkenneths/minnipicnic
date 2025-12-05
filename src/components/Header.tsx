@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Utensils } from "lucide-react";
 import { Button } from "./ui/button";
+import miniPicnicLogo from '/src/assets/mini-picnic-logo.png';
 
 export function Header() {
   return (
@@ -10,9 +11,8 @@ export function Header() {
             {/*<div className="w-12 h-12 rounded-full bg-gradient-to-br from-rose-300 to-pink-200 flex items-center justify-center shadow-sm">
               <Utensils className="size-5 text-rose-700" />
             </div>*/}
-            <span className="text-2xl font-light tracking-wide text-slate-800">
-              Minni Picnic
-            </span>
+            {/*<span className="text-2xl font-light tracking-wide text-slate-800">  </span>*/}
+            <img className='object-cover img-height' src={miniPicnicLogo} />
           </div>
           
           <nav className="md:flex items-center gap-10">
